@@ -125,14 +125,14 @@ form.addEventListener('submit', function (e) {
 
     //validate fieldsm 
     let isUsernameValid = checkUsername(),
-    is EmailValid = checkEmail(),
-    isPasswordValid = checkPassword(),
-    isConfirmPasswordValid = checkConfirmPassword();
+        isEmailValid = checkEmail(),
+        isPasswordValid = checkPassword(),
+        isConfirmPasswordValid = checkConfirmPassword();
 
-    let isFormValid = is usernameValid &&
-    isEmailValid&&
-    isPasswordValid &&
-    isConfirmPasswordValid;
+    let isFormValid = isusernameValid &&
+        isEmailValid&&
+        isPasswordValid &&
+        isConfirmPasswordValid;
 
     //submit to the sever if the form is valid
     id (isFormValid) {
